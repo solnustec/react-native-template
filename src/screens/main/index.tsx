@@ -8,7 +8,7 @@ const Main = () => {
     <SafeAreaView style={styles.area}>
       <StatusBar style='light' />
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Text>Main</Text>
+        <Text className='text-black text-2xl font-bold'>Main</Text>
       </ScrollView>
     </SafeAreaView>
   );
