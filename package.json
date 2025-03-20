@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "@react-navigation/native": "7.0.15",
-    "@react-navigation/native-stack": "7.2.1",
+    "@react-navigation/native-stack": "7.3.1",
     "expo": "52.0.39",
     "expo-font": "13.0.4",
     "expo-splash-screen": "0.29.22",
