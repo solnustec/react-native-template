@@ -1,23 +1,23 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "daily"
-      time: "01:00"
-      timezone: "America/Guayaquil"
+      interval: 'daily'
+      time: '01:00'
+      timezone: 'America/Guayaquil'
     allow:
-      - dependency-type: "production"
+      - dependency-type: 'production'
     ignore:
       # Ignore patch updates for all packages
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      - dependency-name: '*'
+        update-types: ['version-update:semver-patch']
     commit-message:
-      prefix: "npm"
-      include: "scope"
+      prefix: 'npm'
+      include: 'scope'
     labels:
-      - "npm"
-      - "dependencies"
+      - 'npm'
+      - 'dependencies'
     open-pull-requests-limit: 2
     reviewers:
-      - "solnustec/backend"
+      - 'solnustec/backend'

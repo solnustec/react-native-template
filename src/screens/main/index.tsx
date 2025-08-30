@@ -6,9 +6,9 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 const Main = () => {
   return (
     <SafeAreaView style={styles.area}>
-      <StatusBar style='light' />
+      <StatusBar />
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Text className='text-black text-2xl font-bold'>Main</Text>
+        <Text className='text-black text-4xl font-bold'>Main</Text>
       </ScrollView>
     </SafeAreaView>
   );
