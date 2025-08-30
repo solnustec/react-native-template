@@ -29,7 +29,7 @@
     "expo-splash-screen": "~0.30.10",
     "expo-status-bar": "~2.2.3",
     "nativewind": "4.1.23",
-    "react": "19.0.0",
+    "react": "19.1.1",
     "react-native": "0.79.5",
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.11.1"
@@ -39,7 +39,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@ls-lint/ls-lint": "2.3.1",
-    "@types/react": "~19.0.10",
+    "@types/react": "~19.1.12",
     "@typescript-eslint/eslint-plugin": "^8.24.0",
     "@typescript-eslint/parser": "^8.24.0",
     "eslint": "^8.57.1",
